@@ -12,17 +12,17 @@ $ tmux attach -t rsync
 
 # INSTALL
 
-Download [tmux-completion.sh](https://raw.githubusercontent.com/mcandre/tmux-completion/master/tmux-completion.sh) and place into `$HOME`:
+Download [tmux-completion.sh](https://raw.githubusercontent.com/mcandre/tmux-completion/master/lib/tmux-completion.sh) and place into `$HOME`:
 
 ```
-wget -O $HOME/tmux-completion.sh https://raw.githubusercontent.com/mcandre/tmux-completion/master/tmux-completion.sh
+wget -O $HOME/tmux-completion.sh https://raw.githubusercontent.com/mcandre/tmux-completion/master/lib/tmux-completion.sh
 ```
 
 Then configure your `$HOME/.bash_profile` or similar shell configuration to use tmux-completion:
 
 ```
 # tmux-completion
-# See https://raw.githubusercontent.com/mcandre/tmux-completion/master/tmux-completion.sh
+# See https://raw.githubusercontent.com/mcandre/tmux-completion/master/lib/tmux-completion.sh
 . $HOME/tmux-completion.sh
 ```
 

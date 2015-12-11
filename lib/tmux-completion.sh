@@ -1,3 +1,4 @@
+#!/bin/bash
 # bash support for tmux session tab completion
 #
 # Setup instructions
