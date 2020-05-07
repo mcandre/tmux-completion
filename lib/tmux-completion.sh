@@ -4,8 +4,8 @@
 # Setup instructions
 #
 # https://github.com/mcandre/tmux-completion
+unset IFS
 set -eEuo pipefail
-IFS=$'\n\t '
 
 completetmux() {
     mapfile -t COMPREPLY < <(tmux ls |
